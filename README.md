@@ -48,8 +48,9 @@ Bot: Hello! How can I assist you today?
 Data File
 The chatbot responses are loaded from a data.txt file. Each line in the file should have the format:
 keyword1,...,keywordn~response
+
 For example:
-hello,hi~Hello! How can I assist you today?
+hello,hi ~ Hello! How can I assist you today?
 
 **Stanford CoreNLP Configuration**
 Ensure that the Stanford CoreNLP models are available in your classpath. You can download the models from the Stanford NLP website.
