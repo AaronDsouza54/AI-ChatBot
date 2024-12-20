@@ -12,7 +12,7 @@ A simple AI chatbot that answers questions regarding immigration for potential i
 8. [Acknowledgements](#acknowledgements)
 
 ## Introduction
-The Java Chatbot Program is designed to provide automated responses to user queries. It uses natural language processing to understand and respond to user inputs. The chatbot can be integrated into various platforms and provides interactive and engaging user experiences.
+The Java Chatbot Program is designed to provide automated responses to user queries. It uses natural language processing to understand and respond to user inputs. The chatbot can be integrated into various platforms and provides interactive and engaging user experiences. The target audience for this chatbot is immigrants who are looking for information to migrate to Canada.
 
 ## Features
 - Natural language processing using Stanford CoreNLP
