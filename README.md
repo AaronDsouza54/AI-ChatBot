@@ -37,6 +37,7 @@ The Java Chatbot Program is designed to provide automated responses to user quer
 5. Run the application:
    java -cp target/java-chatbot-1.0-SNAPSHOT.jar com.aaron.nlp.Bot
 
+## Usage
 To start the chatbot, run the following command:
 java -cp target/java-chatbot-1.0-SNAPSHOT.jar com.aaron.nlp.Bot
 
