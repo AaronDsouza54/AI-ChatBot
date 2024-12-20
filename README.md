@@ -33,12 +33,10 @@ The Java Chatbot Program is designed to provide automated responses to user quer
    git clone https://github.com/yourusername/java-chatbot.git
 2. Navigate to the project directory:
    cd java-chatbot
-3. Install dependencies and build the project using Maven:
+4. Install dependencies and build the project using Maven:
    mvn clean install
 Run the application:
    java -cp target/java-chatbot-1.0-SNAPSHOT.jar com.aaron.nlp.Bot
-
-# Java Chatbot Program
 
 ## Table of Contents
 1. [Introduction](#introduction)
