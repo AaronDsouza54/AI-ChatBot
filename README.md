@@ -9,7 +9,6 @@ A simple AI chatbot that answers questions regarding immigration for potential i
 5. [Configuration](#configuration)
 6. [API Reference](#api-reference)
 7. [License](#license)
-8. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 The Java Chatbot Program is designed to provide automated responses to user queries. It uses natural language processing to understand and respond to user inputs. The chatbot can be integrated into various platforms and provides interactive and engaging user experiences.
@@ -44,7 +43,7 @@ Example Interaction
 User: Hello!
 Bot: Hello! How can I assist you today?
 
-**Configuration**
+## Configuration
 Data File
 The chatbot responses are loaded from a data.txt file. Each line in the file should have the format:
 keyword1,...,keywordn~response
@@ -55,7 +54,7 @@ hello,hi ~ Hello! How can I assist you today?
 **Stanford CoreNLP Configuration**
 Ensure that the Stanford CoreNLP models are available in your classpath. You can download the models from the Stanford NLP website.
 
-**API Reference**
+## API Reference
 Bot Class
 The main class that initializes and runs the chatbot.
 
@@ -112,6 +111,5 @@ Methods
 - public void testCaseInsensitiveKeywordMatching(): checks if generateAppropriateResponse returns the correct answer if there is a keyword with a different case.
 - public void testMultipleMatchesSameResponse(): checks if generateAppropriateResponse returns the correct answer if there are multiple keywords which all have the same answer.
 
-**License**
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
