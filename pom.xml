@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Updated groupId and artifactId -->
+    <groupId>com.example</groupId>
+    <artifactId>stanford-nlp-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- Stanford CoreNLP Dependency -->
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>4.5.4</version> <!-- You can also check for the latest version -->
+        </dependency>
+
+        <!-- Stanford CoreNLP Models Dependency -->
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>4.5.4</version>
+            <classifier>models</classifier> <!-- Stanford CoreNLP models -->
+        </dependency>
+
+        <!-- SLF4J (logging) dependency -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.30</version>
+        </dependency>
+
+        <!-- JUnit Dependency -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <repositories>
+        <!-- This is optional since Stanford CoreNLP is available in Maven Central -->
+        <repository>
+            <id>stanford-nlp-repo</id>
+            <url>https://repo.maven.apache.org/maven2/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <!-- Compiler plugin for ensuring the correct Java version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source> <!-- Java 8 -->
+                    <target>1.8</target> <!-- Java 8 -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
